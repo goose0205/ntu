@@ -1,0 +1,49 @@
+.sidebar{
+  background: white;
+  width: 285px;
+  height: 700px;
+  border: solid 7px #ECF0F4;
+}
+
+.post{  
+  padding: 25px;
+}
+
+.post{
+  margin-bottom: 20px;
+}
+
+.title{
+  color: #4C6176;
+  font-size: 17px;
+  font-family: Cambria Math;
+  letter-spacing: 0.5px;
+  line-height: 25px;
+  padding-bottom: 5px;
+  
+}
+
+.datebar{
+  color: #A2ADB4;
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+}
+
+.date{
+  font-size: 12px;
+  font-family: Cambria Math;
+  font-style: italic;
+  letter-spacing: 1px;
+}
+
+.date2{
+  padding: 5px;
+}
+
+.readmore a{
+  color:#78BC60;
+  font-size: 16px;
+  font-family: Cambria Math;
+  text-decoration: none;
+  margin-top: 10px;
+}

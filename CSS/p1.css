@@ -1,0 +1,57 @@
+.sidebar{
+  background: white;
+  width: 227px;
+  height: 350px;
+  padding: 30px;
+  border: solid 5px #ECF0F4;
+}
+
+.sidebar-title{
+  color: #78BC60;
+  border-top: double 3px ;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.sidebar-title span{
+  background: white;
+  font-size: 16px;
+  font-family: optima;
+  letter-spacing: 0.5px;
+  padding:  10px;
+  position: relative;
+  top: -12px;
+  
+}
+
+.categories{
+  padding-top: 15px;
+  padding-bottom: 13px;
+  border-bottom: solid 1px #ECF0F4;
+ 
+  
+}
+
+div[class|=categories] a{
+  color: #616E7B;
+  font-size: 16px;
+  font-family: optima;
+  font-weight: normal;
+  text-decoration: none;
+}
+
+.amount{
+  color: #AEB9BE;
+  font-size: 14px;
+  font-family: optima;
+  padding-top: 3px;
+  position: relative;
+  float: right;
+}
+
+.categories2{
+  padding-top: 13px;
+}
+
+
+ 

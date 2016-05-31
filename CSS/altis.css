@@ -1,0 +1,461 @@
+
+/*---------- BASE ----------*/
+
+
+body {
+    /*100%*/
+    font-size: 16px;
+    font-family: arial, sans-serif;
+    line-height: 150%;
+}
+
+
+a {
+  color: #e40000;
+  text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+
+/*---------- LAYOUT -----------*/
+
+
+.container {
+    width: 1024px;
+    margin: 0 auto; 
+    /*左右設auto就會依照螢幕解析度計算兩側留白*/
+}
+
+
+/* 文字轉圖????????????? */
+
+.logo a{
+  width: 250px;
+  height: 49px;
+  display: inline-block;
+  background: url("http://placehold.it/250x49") no-repeat 0 0;
+  text-indent: 100%;
+  overflow: hidden;
+  margin-top: 5px;
+}
+/* ????????????? */
+
+
+.bg-light {
+  background: #404549;
+}
+
+
+/* 偽類選擇器?????????????? */
+.bg-light::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+/* ????????????? */
+
+
+.bg-light a {
+  color: lightgray;
+}
+
+.bg-dark {
+  background: #2a2e31;
+  overflow: hidden;
+}
+
+.bg-dark a {
+  color: lightgray;
+}
+
+.main {
+  width: 683px;
+  float: left;
+}
+
+.sidebar {
+  width: 318px;
+  float: left;
+}
+
+
+/*--------- Moudle(模件) ---------*/
+
+
+.social-icon {
+  float: left;
+}
+
+.social-icon li{
+  display: inline-block;
+}
+
+.sub-menu {
+  float: right;
+}
+
+.sub-menu li {
+  display: inline-block;
+}
+
+.logo {
+  float: left;
+}
+
+
+
+
+/*---------- !!!!!!sub menu --------*/
+.menu {
+  float: left;
+  margin: 15px;
+}
+
+.menu li {
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.menu li:hover .s-menu {
+  display: block;
+}
+
+.s-menu {
+  display: none;
+  position: absolute;
+  background: #404549;
+  padding: 5px;
+}
+
+.s-menu li {
+  display: block;
+}
+
+
+
+
+
+.search-form {
+  float: right;
+  margin: 15px;
+}
+
+.img-caseshow {
+  margin-top: 40px;
+  overflow: hidden;
+}
+
+.img-caseshow figcaption {
+  position: relative;
+  top: -3em; 
+  left: 0.5em;
+}
+
+.img-caseshow figcaption a {
+  color: white;
+}
+
+.thumb-big {
+  float: left;
+}
+
+.thumb-square {
+  float: left;
+  margin-left: 1em;
+  margin-bottom: -10px;
+}
+
+.list {
+  width: 212px;
+  border: 1px solid lightgray;
+  float: left;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  padding-bottom: 4px;
+}
+
+.list-inner{
+    width: 195px;
+    margin: 0 auto;
+}
+
+.list:nth-child(3n) {
+  margin-right: 0;  
+}
+
+/* 
+:nth-child(xxx)是用來選擇要給予條件的第幾位，
+假設(2) 就會選擇指定項目的第二個，
+可以給數字、n、odd、even
+*/
+
+.title a {
+  color: #000;
+}
+
+.excerpt {
+  color: gray;
+  border-bottom: 1px solid lightgray;
+}
+
+.meta {
+    padding-top: 5px;
+}
+
+.meta .facebook-widget {
+    float: left;
+}
+
+.meta .more {
+    float: right;
+    font-size: 10px;
+}
+
+.meta .more a {
+    color: #fff;
+    background-color: cadetblue;
+    padding: 3px 2px;
+}
+
+.meta .more a:hover {
+    font-weight: bold;
+}
+
+.page-next {
+  clear: both;
+}
+
+.page-next li {
+  display: inline-block;
+  border: 1px solid lightgray;
+  padding: 3px 10px;
+}
+
+.page-next li a{
+  color: #000;
+  font-weight: bold;
+}
+
+
+.side-box {
+  width: 298px;
+  border: 1px solid lightgray;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.side-title {
+  text-align: center;
+  border: 1px solid lightgray;
+  border-radius: 20px;
+  margin: 0 70px 10px;
+  padding: 4px
+}
+
+.item-title a{
+  color: #000;
+  font-weight: bold;
+}  
+
+.item-group{
+  color: gray;
+  border-bottom: 1px solid lightgray;
+  margin: 10px 0;
+}
+
+.item-thumb {
+ float: left;
+ margin: 5px 10px 0 0;
+}
+
+.item-list-ad a img {
+    text-align: center;
+}
+
+
+.ad {
+    text-align: center;
+    margin: 10px 0;
+}
+
+.widget-footer{
+    padding: 20px 10px;
+}
+
+.widget-box {
+    color: lightgray;
+    width: 314px;
+    height: 450px;
+    float: left;
+    display: inline-block;
+    overflow: hidden;
+    margin: 15px 10px 0;
+}
+
+
+.widger-box-title {
+    font-size: 15px;
+    text-align: center;
+    border: 1px solid lightgray;
+    border-radius: 20px;
+    margin: 0 80px 10px;
+    padding: 4px;
+}
+
+.widget-box p{
+    margin: 10px 0;
+}
+
+.wbox-excerpt {
+    margin: 10px 0;
+}
+
+.copyright{
+    text-align: center;
+    color: lightgray;
+    padding: 10px;
+}
+
+/* 
+z-index(原本預設是0)
+如果更改的話可以調div的上下位置
+如果是abc就可以讓b在最下面被ac包住 
+*/
+
+
+
+/*---------- body css -----------*/
+
+.essay-cat {
+    border: 1px solid lightgray;
+    padding: 10px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-right: 1em;
+}
+
+.categories {
+    font-weight: bold;
+}
+
+.categories a {
+    color: #339966;
+}
+
+.content {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 10px;
+    margin-right: 1em;
+}
+    
+.title-bar {
+    font-weight: bold;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.title-bar .title h2 {
+    font-size: 24px;
+}
+
+.title-bar .date {
+    color: darkgray;
+}
+
+.essay {
+    padding-top: 5px;
+}
+
+.essay p {
+    padding: 15px 0;
+}
+
+.essay-img {
+    text-align: center;
+    padding: 15px 0;
+}
+
+.essay .p3 {
+    margin: 10px 30px;
+    padding: 2px 20px;
+    border-left: 25px solid lightgray;
+}
+
+.h-title {
+    font-size: 18px;
+    border-bottom: 3px solid lightgray;
+    padding-bottom: 5px;
+}
+
+.s-title {
+    font-size: 18px;
+    padding-top: 30px;
+}
+
+
+
+.essay-social-icon {
+    text-align: center;
+}
+
+.author-about {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+.author-thumb {
+    float: left;
+    margin-right: 10px;
+}
+
+.author-name {
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 5px;
+}
+
+.author-name a {
+    color: #339966;
+}
+
+.relate {
+    border: 1px solid lightgray;
+    padding: 20px;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
+
+.relate-post {
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 1em;
+    padding-bottom: 12px;
+}
+
+.relate ul li {
+    width: 130px;
+    display: inline-block;
+    padding-right: 18px; 
+}
+
+.relate-thumb img {
+    border: 3px solid lightgray;
+}
+
+.relate-thumb a {
+    color: black;
+}
+
+.comment {
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin-bottom: 2em;
+    margin-right: 1em;
+}
