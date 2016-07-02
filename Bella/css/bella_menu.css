@@ -104,7 +104,8 @@
 
 .title {
   font-size: 28px;
-  padding: 0 20px;
+  font-family: "Bauhaus 93";
+  padding: 0 10px;
   border-bottom: 1px solid;
 }
 
@@ -157,10 +158,12 @@ ul {
 
 
 strong {
+  font-family: "微軟正黑體";    
   font-size: 13px;
 }
 
 p {
+  font-family: "微軟正黑體";
   line-height: 18px;
 }
 
@@ -193,7 +196,7 @@ p {
 }
 
 .macaron-price li{
-  margin: 19px -7px -14.5px;
+  margin: 22px -7px -14.5px;
 }
 
 .macaron-cat-right {
@@ -229,7 +232,7 @@ p {
 }
 
 .cheese-price li{
-  margin: 19px -7px -14.5px;
+  margin: 23.5px -7px -14.5px;
 }
 
 .cheese-cat-right {
@@ -260,6 +263,7 @@ p {
 
 .s-title {
   font-size: 16px;
+  font-family: "微軟正黑體";
   color: white;
   font-weight: bold;
   padding-bottom: 10px;
