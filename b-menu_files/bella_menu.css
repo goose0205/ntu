@@ -1,0 +1,312 @@
+
+.header {
+  height:80px;
+  width:1320px;
+  background-color: #E6E6FA;
+  padding:10px;
+}
+
+.logo {
+  display:inline-block;
+}
+
+.header-cat {
+  float: right;
+  padding: 10px;
+}
+
+.h-cat {
+  font-size: 25px;
+  font-weight: bold;
+  font-family: "Bauhaus 93";
+  color: white;
+  float: left;
+  display: inline-block;
+  padding: 10px;
+  margin: 0 20px;
+  letter-spacing: 5px;
+}
+
+.h-cat:hover {
+  font-size: 30px;
+  color: #778899;
+}
+
+/*----------story------------*/
+
+.story-img {
+/*    height: 500px;*/
+    width: 100%;
+}
+
+.story-text {
+   width: 300px;
+   height: 815px;
+   background-color: white;
+   opacity: 0.4;
+   position: absolute;
+   top: 108px;
+   left: 948px;
+   padding: 50px;
+   text-align: center;
+}
+
+.story-text p {
+    width: 320px;
+    height: 500px;
+    font-size: 16px;
+    color: #191970;
+    line-height: 50px;
+    font-weight: bold;
+    padding-top: 250px;
+}
+
+
+
+
+
+
+/*----------menu-------------*/
+
+
+.img-cupcake {
+  position: absolute;
+  width: 100%;
+  top: 107px;
+  opacity: 0.6;
+}
+
+.img-macaron {
+  position: absolute;
+  width: 100%;
+  top: 1022px;
+  opacity: 0.6;
+}
+
+.img-cheese {
+  position: absolute;
+  width: 100%;    
+  top: 1937px;
+  opacity: 0.6;
+}
+
+.menu-cupcake {
+  position: absolute;
+  top: 105px;
+  width: 890px;
+  height: 740px;
+  border: 10px solid lightgray;
+  background-color: #FFE4E1;
+  opacity: 0.8;
+  padding: 0 20px;
+  margin: 80px 90px 40px;
+}
+
+.title {
+  font-size: 28px;
+  padding: 0 20px;
+  border-bottom: 1px solid;
+}
+
+ul {
+  list-style-type: none;
+  font-size: 12px;
+}
+
+.cupcake-cat-left {
+  width: 445px;
+  float: left;
+}
+
+.cat-left {
+  width: 280px;
+  float: left;
+  padding-top: 10px;
+}
+
+.cat-left li {
+  padding: 10px 0;
+}
+
+.cupcake-cat-right {
+  width: 445px;
+  float: left;
+}
+
+.cat-right {
+  width: 280px;
+  float: left;
+  padding-top: 10px;
+}
+
+.cat-right li {
+  padding: 10px 0;
+}
+
+.cupcake-price {
+  height: 610px;
+  width: 40px;
+  float: right;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.cupcake-price li{
+  margin: 36px -10px;
+}
+
+
+strong {
+  font-size: 13px;
+}
+
+p {
+  line-height: 18px;
+}
+
+/* -----------macaron----------- */
+
+
+.menu-macaron {
+  position: absolute;
+  top: 1080px;
+  width: 890px;
+  height: 450px;
+  border: 10px solid lightgray;
+  background-color: #E6E6FA ;
+  opacity: 0.8;
+  padding: 0 20px;
+  margin: 30px 90px 40px;
+}
+
+.macaron-cat-left {
+  width: 445px;
+  float: left;
+}
+
+.macaron-price {
+  height: 320px;
+  width: 40px;
+  float: right;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.macaron-price li{
+  margin: 19px -7px -14.5px;
+}
+
+.macaron-cat-right {
+  width: 445px;
+  float: left;
+}
+
+  /* --------cheesecake-------- */
+  
+   .menu-cheese {
+  position: absolute;
+  top: 1990px;
+  width: 890px;
+  height: 300px;
+  border: 10px solid lightgray;
+  background-color: #FFFFE0;
+  opacity: 0.8;
+  padding: 0 20px;
+  margin: 30px 90px 110px;
+  }
+
+.cheese-cat-left {
+  width: 445px;
+  float: left;
+}
+
+.cheese-price {
+  height: 170px;
+  width: 40px;
+  float: right;
+  border-left: 1px solid;
+  border-right: 1px solid;
+}
+
+.cheese-price li{
+  margin: 19px -7px -14.5px;
+}
+
+.cheese-cat-right {
+  width: 445px;
+  float: left;
+}
+
+
+/* ---------footer-------- */
+  
+.footer {
+  position: absolute;
+  top: 2775px;
+  width: 1300px;
+  height: 370px;
+  padding: 20px;
+  background-color:	#778899;
+} 
+
+.story-footer {
+  position: absolute;
+  top: 1005px;
+  width: 1300px;
+  height: 370px;
+  padding: 20px;
+  background-color:	#778899;  
+}
+
+.s-title {
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  padding-bottom: 10px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.text {
+  font-size: 15px;
+  color: lightgray;
+  line-height: 20px;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.left-foot {
+  width: 220px;
+  display: inline-block;
+  padding: 30px 60px;
+  float: left;
+}
+
+.map {
+  width : 560px;
+  display: inline-block;
+  padding: 0 22px;
+  text-align: center;
+  margin-top: 15px;
+  float: left;
+}
+
+.mapimg {
+  border-radius: 50%;
+}
+
+.right-foot {
+  width: 220px;
+  display: inline-block;
+  padding: 30px 60px;
+  float: right;
+}
+
+a {
+  text-decoration: none;
+  color: #E6E6FA ;
+}
+
+
+  
+  
